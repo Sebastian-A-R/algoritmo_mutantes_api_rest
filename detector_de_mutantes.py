@@ -22,6 +22,4 @@ def isMutant(dna):
     contador_de_secuencias, is_mutant = detectorDna(matriz_de_digonales_ascendentes, contador_de_secuencias)
     return is_mutant
 
-if __name__ == "__main__":
-    dna = ["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
-    print(isMutant(dna))
+
